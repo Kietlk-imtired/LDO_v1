@@ -60,7 +60,7 @@ pinout:
   ua[2]: "VDD"
   ua[3]: "Vref"
   ua[4]: "OUT1"
-  ua[5]: "VGND"
+  ua[5]: ""
 
 # Do not change!
 yaml_version: 6

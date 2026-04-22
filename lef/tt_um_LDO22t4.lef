@@ -397,6 +397,120 @@ MACRO tt_um_LDO22t4
     END
   END ua[4]
   PIN ua[5]
+    PORT
+      LAYER met4 ;
+        RECT 55.210 0.000 56.110 0.990 ;
+    END
+  END ua[5]
+  PIN ua[6]
+    PORT
+      LAYER met4 ;
+        RECT 35.890 0.000 36.790 1.000 ;
+    END
+  END ua[6]
+  PIN ua[7]
+    PORT
+      LAYER met4 ;
+        RECT 16.570 0.000 17.470 1.000 ;
+    END
+  END ua[7]
+  PIN ui_in[0]
+    PORT
+      LAYER met4 ;
+        RECT 138.310 224.760 138.610 225.760 ;
+    END
+  END ui_in[0]
+  PIN ui_in[1]
+    PORT
+      LAYER met4 ;
+        RECT 135.550 224.760 135.850 225.760 ;
+    END
+  END ui_in[1]
+  PIN ui_in[2]
+    PORT
+      LAYER met4 ;
+        RECT 132.790 224.760 133.090 225.760 ;
+    END
+  END ui_in[2]
+  PIN ui_in[3]
+    PORT
+      LAYER met4 ;
+        RECT 130.030 224.760 130.330 225.760 ;
+    END
+  END ui_in[3]
+  PIN ui_in[4]
+    PORT
+      LAYER met4 ;
+        RECT 127.270 224.760 127.570 225.760 ;
+    END
+  END ui_in[4]
+  PIN ui_in[5]
+    PORT
+      LAYER met4 ;
+        RECT 124.510 224.760 124.810 225.760 ;
+    END
+  END ui_in[5]
+  PIN ui_in[6]
+    PORT
+      LAYER met4 ;
+        RECT 121.750 224.760 122.050 225.760 ;
+    END
+  END ui_in[6]
+  PIN ui_in[7]
+    PORT
+      LAYER met4 ;
+        RECT 118.990 224.760 119.290 225.760 ;
+    END
+  END ui_in[7]
+  PIN uio_in[0]
+    PORT
+      LAYER met4 ;
+        RECT 116.230 224.760 116.530 225.760 ;
+    END
+  END uio_in[0]
+  PIN uio_in[1]
+    PORT
+      LAYER met4 ;
+        RECT 113.470 224.760 113.770 225.760 ;
+    END
+  END uio_in[1]
+  PIN uio_in[2]
+    PORT
+      LAYER met4 ;
+        RECT 110.710 224.760 111.010 225.760 ;
+    END
+  END uio_in[2]
+  PIN uio_in[3]
+    PORT
+      LAYER met4 ;
+        RECT 107.950 224.760 108.250 225.760 ;
+    END
+  END uio_in[3]
+  PIN uio_in[4]
+    PORT
+      LAYER met4 ;
+        RECT 105.190 224.760 105.490 225.760 ;
+    END
+  END uio_in[4]
+  PIN uio_in[5]
+    PORT
+      LAYER met4 ;
+        RECT 102.430 224.760 102.730 225.760 ;
+    END
+  END uio_in[5]
+  PIN uio_in[6]
+    PORT
+      LAYER met4 ;
+        RECT 99.670 224.760 99.970 225.760 ;
+    END
+  END uio_in[6]
+  PIN uio_in[7]
+    PORT
+      LAYER met4 ;
+        RECT 96.910 224.760 97.210 225.760 ;
+    END
+  END uio_in[7]
+  PIN uio_oe[0]
     ANTENNAGATEAREA 80.379997 ;
     ANTENNADIFFAREA 155.779800 ;
     PORT
@@ -1591,120 +1705,9 @@ MACRO tt_um_LDO22t4
         RECT 66.550 224.760 66.850 225.760 ;
         RECT 69.310 224.760 69.610 225.760 ;
         RECT 6.770 222.835 69.610 224.760 ;
-        RECT 6.770 4.490 8.770 222.835 ;
-        RECT 6.770 2.490 56.655 4.490 ;
-        RECT 54.655 0.990 56.655 2.490 ;
-        RECT 55.210 0.000 56.110 0.990 ;
+        RECT 6.770 8.490 8.770 222.835 ;
     END
-  END ua[5]
-  PIN ua[6]
-    PORT
-      LAYER met4 ;
-        RECT 35.890 0.000 36.790 1.000 ;
-    END
-  END ua[6]
-  PIN ua[7]
-    PORT
-      LAYER met4 ;
-        RECT 16.570 0.000 17.470 1.000 ;
-    END
-  END ua[7]
-  PIN ui_in[0]
-    PORT
-      LAYER met4 ;
-        RECT 138.310 224.760 138.610 225.760 ;
-    END
-  END ui_in[0]
-  PIN ui_in[1]
-    PORT
-      LAYER met4 ;
-        RECT 135.550 224.760 135.850 225.760 ;
-    END
-  END ui_in[1]
-  PIN ui_in[2]
-    PORT
-      LAYER met4 ;
-        RECT 132.790 224.760 133.090 225.760 ;
-    END
-  END ui_in[2]
-  PIN ui_in[3]
-    PORT
-      LAYER met4 ;
-        RECT 130.030 224.760 130.330 225.760 ;
-    END
-  END ui_in[3]
-  PIN ui_in[4]
-    PORT
-      LAYER met4 ;
-        RECT 127.270 224.760 127.570 225.760 ;
-    END
-  END ui_in[4]
-  PIN ui_in[5]
-    PORT
-      LAYER met4 ;
-        RECT 124.510 224.760 124.810 225.760 ;
-    END
-  END ui_in[5]
-  PIN ui_in[6]
-    PORT
-      LAYER met4 ;
-        RECT 121.750 224.760 122.050 225.760 ;
-    END
-  END ui_in[6]
-  PIN ui_in[7]
-    PORT
-      LAYER met4 ;
-        RECT 118.990 224.760 119.290 225.760 ;
-    END
-  END ui_in[7]
-  PIN uio_in[0]
-    PORT
-      LAYER met4 ;
-        RECT 116.230 224.760 116.530 225.760 ;
-    END
-  END uio_in[0]
-  PIN uio_in[1]
-    PORT
-      LAYER met4 ;
-        RECT 113.470 224.760 113.770 225.760 ;
-    END
-  END uio_in[1]
-  PIN uio_in[2]
-    PORT
-      LAYER met4 ;
-        RECT 110.710 224.760 111.010 225.760 ;
-    END
-  END uio_in[2]
-  PIN uio_in[3]
-    PORT
-      LAYER met4 ;
-        RECT 107.950 224.760 108.250 225.760 ;
-    END
-  END uio_in[3]
-  PIN uio_in[4]
-    PORT
-      LAYER met4 ;
-        RECT 105.190 224.760 105.490 225.760 ;
-    END
-  END uio_in[4]
-  PIN uio_in[5]
-    PORT
-      LAYER met4 ;
-        RECT 102.430 224.760 102.730 225.760 ;
-    END
-  END uio_in[5]
-  PIN uio_in[6]
-    PORT
-      LAYER met4 ;
-        RECT 99.670 224.760 99.970 225.760 ;
-    END
-  END uio_in[6]
-  PIN uio_in[7]
-    PORT
-      LAYER met4 ;
-        RECT 96.910 224.760 97.210 225.760 ;
-    END
-  END uio_in[7]
+  END uio_oe[0]
   PIN uio_out[0]
     PORT
       LAYER met4 ;
