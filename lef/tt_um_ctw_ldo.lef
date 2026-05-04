@@ -38,7 +38,7 @@ MACRO tt_um_ctw_ldo
     ANTENNADIFFAREA 186.759995 ;
     PORT
       LAYER met4 ;
-        RECT 151.265 0.995 153.265 214.950 ;
+        RECT 151.810 0.000 152.710 1.000 ;
     END
   END ua[0]
   PIN ua[1]
@@ -48,17 +48,17 @@ MACRO tt_um_ctw_ldo
     ANTENNADIFFAREA 186.759995 ;
     PORT
       LAYER met4 ;
-        RECT 146.495 5.725 148.495 214.950 ;
+        RECT 132.490 0.000 133.390 1.000 ;
     END
   END ua[1]
   PIN ua[2]
     DIRECTION INOUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 886.259949 ;
+    ANTENNADIFFAREA 831.391174 ;
     PORT
       LAYER met4 ;
-        RECT 112.690 8.910 138.855 10.910 ;
-        RECT 112.690 0.990 114.690 8.910 ;
-        RECT 113.170 0.000 114.070 0.990 ;
+        RECT 113.170 0.000 114.070 1.000 ;
     END
   END ua[2]
   PIN ua[3]
@@ -67,7 +67,7 @@ MACRO tt_um_ctw_ldo
     ANTENNAGATEAREA 2.000000 ;
     PORT
       LAYER met4 ;
-        RECT 55.775 12.630 57.775 214.950 ;
+        RECT 93.850 0.000 94.750 1.000 ;
     END
   END ua[3]
   PIN ua[4]
@@ -75,7 +75,7 @@ MACRO tt_um_ctw_ldo
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 50.995 7.790 53.005 214.950 ;
+        RECT 74.530 0.000 75.430 1.000 ;
     END
   END ua[4]
   PIN ua[5]
@@ -305,11 +305,11 @@ MACRO tt_um_ctw_ldo
   PIN uio_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 80.379997 ;
+    ANTENNADIFFAREA 155.779800 ;
     PORT
       LAYER met4 ;
         RECT 69.310 224.760 69.610 225.760 ;
-        RECT 68.510 224.210 70.435 224.760 ;
-        RECT 9.435 222.285 70.435 224.210 ;
     END
   END uio_out[1]
   PIN uio_out[2]
