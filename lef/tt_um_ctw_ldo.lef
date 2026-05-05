@@ -5477,4 +5477,3 @@ MACRO tt_um_ctw_ldo
   END
 END tt_um_LDO23t4
 END LIBRARY
-
